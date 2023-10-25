@@ -1,184 +1,70 @@
-# Welcome to the Hacktoberfest 2023 Repository!
+# Getting Started with Create React App
 
-![Hacktoberfest Logo](./assets/hacktoberfest_wall.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
-## Guidelines:
+## Available Scripts
 
-- **No DELETING files** 
-- Your code doesn't have to be pretty
-- You have the freedom to use any programming language.
-- If there is no folder for the Programming Language YOU are using, please create a folder inside the **"HacktoberFest"** directory with the name of the language.
-- Enjoy the coding process!
+In the project directory, you can run:
 
-Whether you're a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+### `npm start`
 
-## What is Hacktoberfest?
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Hacktoberfest encourages participation in giving back to the open-source community by completing pull requests, participating in events, and donating to open source projects. In its 10th year, Hacktoberfest continues to grow and foster a vibrant open source community that we are all a part of.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## How Does It Work?
+### `npm test`
 
-- First sign up on the Hacktoberfest site anytime between September 26 and October 31.
-- To qualify for digital swags, you must register and make four pull requests between October 1-31.
-- You can contribute to any public repository on GitHub, not just the ones highlighted.
-- If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Rules
+### `npm run build`
 
-To earn your tree reward, you must register and make four valid pull requests (PRs) between October 1-31 in any time zone. Pull requests can be made in any participating GitHub-hosted repositories/projects.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## How Can I Contribute?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Contributions aren't limited to code – we welcome contributions to documentation, design, translations, bug reports and more! If you're new to open source or interested in contributing, this repository is a great place to start. If you're an experienced open-source contributor, feel free to check out these issues and contribute.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Let's Get Started!
+### `npm run eject`
 
-Ready to contribute? Check out our Contribution Guide for information on how to get started.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Happy Hacking!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## First Contributions
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Welcome to the First Contributions project, designed to help beginners make their first open-source contribution. If you're new to this process, follow the steps below.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-_If you're not familiar with the command line, you can use [GUI tools](#tutorials-using-other-tools) to help you._
+## Learn More
 
-![Fork this repository](https://firstcontributions.github.io/assets/Readme/fork.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Prerequisites
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Before you start, ensure you have [Git installed](https://help.github.com/articles/set-up-git/) on your machine.
+### Code Splitting
 
-## Step 1: Fork this repository
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Begin by forking this repository. Click the "Fork" button at the top of this page. This action will create a copy of this repository in your GitHub account.
+### Analyzing the Bundle Size
 
-## Step 2: Clone the repository
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-![Clone this repository](https://firstcontributions.github.io/assets/Readme/clone.png)
+### Making a Progressive Web App
 
-Next, clone your forked repository to your local machine. Go to your GitHub account, open the forked repository, click on the "Code" button, and then click the "Copy to clipboard" icon.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Open your terminal and run the following command, replacing `"url you just copied"` with the copied URL:
+### Advanced Configuration
 
-```shell
-git clone "url you just copied"
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-For example:
+### Deployment
 
-```shell
-git clone https://github.com/your-username/first-contributions.git
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Step 3: Create a branch
+### `npm run build` fails to minify
 
-Change to the repository directory on your computer (if you are not already there):
-
-```shell
-cd first-contributions
-```
-
-Now, create a branch using the `git checkout` command:
-
-```shell
-git checkout -b your-new-branch-name
-```
-
-For example:
-
-```shell
-git checkout -b add-alonzo-church
-```
-
-## Step 4: Make necessary changes and commit them
-
-Open the `Contributors.md` file in a text editor and add your name to it. Don't add it at the beginning or end of the file; place it anywhere in between. Save the file.
-
-![Git Status](https://firstcontributions.github.io/assets/Readme/git-status.png)
-
-If you run the `git status` command in your project directory, you'll see there are changes. Add those changes to the branch you created using the `git add` command:
-
-```shell
-git add Contributors.md
-```
-
-Now commit those changes:
-
-```shell
-git commit -m "Add <your-name> to Contributors list"
-```
-
-Replace `<your-name>` with your name.
-
-## Step 5: Push your changes to GitHub
-
-Use the `git push` command to push your changes to GitHub:
-
-```shell
-git push origin -u <add-your-branch-name>
-```
-
-Replace `<add-your-branch-name>` with the name of the branch you created earlier.
-
-<details>
-
-<summary> <strong>If you encounter errors while pushing, click here:</strong> </summary>
-
-- ### Authentication Error
-
-  If you encounter an authentication error, it's because GitHub has removed support for password authentication. You need to use a personal access token instead. [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) can guide you through generating and configuring an SSH key for your account.
-
-</details>
-
-## Step 6: Submit your changes for review
-
-Go to your repository on GitHub, and you'll see a "Compare & pull request" button. Click on that button.
-
-![Create a pull request](https://firstcontributions.github.io/assets/Readme/compare-and-pull.png)
-
-Submit the pull request.
-
-![Submit pull request](https://firstcontributions.github.io/assets/Readme/submit-pull-request.png)
-
-You will receive a notification email once your changes have been merged.
-
-## What's next?
-
-Congratulations! You've completed the standard _fork -> clone -> edit -> pull request_ workflow for contributing. Celebrate your contribution and share it with friends and followers using the [web app](https://firstcontributions.github.io/#social-share).
-
-If you have questions or need help, you can join our Slack team: [Join Slack Team](https://join.slack.com/t/firstcontributors/shared_invite/zt-vchl8cde-S0KstI_jyCcGEEj7rSTQiA).
-
-Now, let's get you started with contributing to other projects. We've compiled a list of projects with easy issues for newcomers. Check it out [here](https://firstcontributions.github.io/#project-list).
-
-
-## Merge Policy:
-I will merge all pull requests as quickly as possible, as long as they meet the project's requirements and guidelines and are Legit.
-<br>
-Happy coding!
-
-
-## Project Admin 😎:
-
-<table>
-  <tr>
-<td align="center"><a href="https://github.com/Midway91"><img src="https://avatars.githubusercontent.com/u/99934396?v=4" width="100px;" alt=""/><br /><sub><b>Midway91</b></sub></a></td>
-  </tr>
-</table>
-
-## Project Contributors ⭐:
-<table align="center">
-<tr>
-<td>
-<a href="https://github.com/Midway91/HactoberFest2023/graphs/contributors" align="center">
-  <img src="https://contrib.rocks/image?repo=Midway91/HactoberFest2023" /> 
-</a>
-
-
-***
-<h2 align="center">
-    <p>
-        Thank You
-    </p>
-</h2>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
